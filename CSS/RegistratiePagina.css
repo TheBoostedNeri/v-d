@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+}
+/* Container for the registration form */
+.registration-container {
+    width: 100%;
+    max-width: 600px;
+    border: 4px solid #000000;
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 70px auto; /* Push it down from the top and center horizontally */
+    position: relative; /* Stays in normal flow */
+}
+
+.registratie {
+    padding-top: 70px;
+}
+
+/* Heading */
+.registration-container h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+/* Flex rows */
+.flex-row {
+    display: flex;
+    gap: 20px; /* Space between columns */
+    margin-bottom: 20px;
+}
+
+/* Let each child div fill available space */
+.flex-row div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Make certain elements wider or smaller if needed */
+.wide {
+    flex: 2;
+}
+.small {
+    flex: 1;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+    padding: 10px;
+    border: 2px solid #000000;
+}
+
+/* Submit button */
+button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ffffff;
+    border: solid 2px #000000;
+    color: #000000;
+}
+
+/* Registration Section */
+.login-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* "Geen Lid?" Text */
+.login-section h3 {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* Horizontal Line */
+.login-section .line {
+    width: 100%;
+    height: 4px;
+    background-color: #000000;
+    margin: 25px auto;
+}
+
+/* Register Link */
+.login-section a {
+    display: block;
+    font-size: 27px;
+    font-style: italic;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.login-section a:hover {
+    color: #555;
+}

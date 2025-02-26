@@ -16,7 +16,7 @@ if ($conn->connect_error) {
 $menCategories    = getCategoriesByGender($conn, 'man');
 $womenCategories  = getCategoriesByGender($conn, 'vrouw');
 $unisexCategories = getCategoriesByGender($conn, 'unisex');
-?>
+?>k
 <!DOCTYPE html>
 <html lang="nl">
 <head>
